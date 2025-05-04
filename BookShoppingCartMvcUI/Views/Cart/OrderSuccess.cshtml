@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Order Success";
+}
+
+<div class="container min-vh-100 d-flex justify-content-center align-items-center">
+    <div class="text-center p-5 shadow-lg rounded-3" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+        <div class="mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#28a745" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-1 0A7 7 0 1 0 1 8a7 7 0 0 0 14 0z" />
+            </svg>
+        </div>
+
+        <h1 class="display-4 text-success mb-3 fw-bold">Order Successful!</h1>
+
+        <p class="lead mb-4" style="color: #495057;">
+            Thank you for your purchase! 🎉<br>
+            Your order has been placed and will be processed shortly.
+        </p>
+
+        <div class="animate-bounce">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#28a745" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982" />
+                <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3h-6zM15 5v10H1V5z" />
+            </svg>
+        </div>
+
+        <a href="/" class="btn btn-primary mt-4 px-5 py-2">
+            <i class="fas fa-arrow-left me-2"></i>
+            Continue Shopping
+        </a>
+    </div>
+</div>
+
+<style>
+    .animate-bounce {
+        animation: bounce 1.5s infinite;
+    }
+
+    @@keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+</style>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+}

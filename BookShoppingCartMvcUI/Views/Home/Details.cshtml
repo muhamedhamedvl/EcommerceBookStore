@@ -1,0 +1,126 @@
+﻿@model Book
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<div class="container py-5">
+    <div class="row g-5">
+        <!-- Image Section -->
+        <div class="col-md-6">
+            <div class="card border-0 shadow-lg h-100" style="border-radius: 15px; overflow: hidden;">
+                @if (string.IsNullOrEmpty(Model.Image))
+                {
+                    <img src="/images/NoImage.png" class="img-fluid product-image" alt="@Model.BookName"
+                         style="object-fit: contain; height: 600px; background: #f8f9fa;">
+                }
+                else
+                {
+                    <img src="/images/@Model.Image" class="img-fluid product-image" alt="@Model.BookName"
+                         style="object-fit: contain; height: 600px; background: #f8f9fa;">
+                }
+            </div>
+        </div>
+
+        <!-- Details Section -->
+        <div class="col-md-6">
+            <div class="h-100 d-flex flex-column">
+                <!-- Header -->
+                <h1 class="display-5 fw-bold mb-3" style="color: #2c3e50;">@Model.BookName</h1>
+                <h2 class="h4 mb-4" style="color: #7f8c8d; font-family: 'Playfair Display', serif;">
+                    by @Model.AuthorName
+                </h2>
+
+                <!-- Price & Genre -->
+                <div class="d-flex align-items-center gap-3 mb-4">
+                    <span class="badge fs-5 p-3" style="background-color: #27ae60; color: white;">
+                        $@Model.Price
+                    </span>
+                    <span class="badge fs-5 p-3" style="background-color: #f1c40f; color: #2c3e50;">
+                        @Model.Genre.GenreName
+                    </span>
+                </div>
+
+                <!-- Quote -->
+                @if (!string.IsNullOrEmpty(Model.Quote))
+                {
+                    <div class="bg-light p-4 mb-4 position-relative"
+                         style="border-left: 4px solid #2980b9; border-radius: 8px;">
+                        <i class="fas fa-quote-left position-absolute"
+                           style="top: -15px; left: 20px; font-size: 2rem; color: #2980b9;"></i>
+                        <p class="m-0 fst-italic fs-5" style="color: #34495e;">
+                            "@Model.Quote"
+                        </p>
+                    </div>
+                }
+
+                <!-- Description -->
+                <div class="mb-5">
+                    <h3 class="h5 mb-3" style="color: #2c3e50;">About this book</h3>
+                    <p class="lead" style="line-height: 1.8; color: #34495e;">
+                        @Model.Description
+                    </p>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="mt-auto d-grid gap-3">
+                    @if (Model.Stock.Quantity > 0)
+                    {
+                        <button class="btn btn-primary btn-lg py-3 fw-bold"
+                                style="background-color: #2980b9; border: none;">
+                            <i class="fas fa-shopping-cart me-2"></i>
+                            Add to Cart - $@Model.Price
+                        </button>
+                        <a href="#" class="btn btn-outline-dark btn-lg py-3">
+                            <i class="fas fa-credit-card me-2"></i>
+                            Buy Now
+                        </a>
+                    }
+                    else
+                    {
+                        <div class="alert alert-danger py-3 fs-5 text-center">
+                            <i class="fas fa-exclamation-circle me-2"></i>
+                            Currently unavailable
+                        </div>
+                    }
+                </div>
+
+                <!-- Back Link -->
+                <div class="mt-4">
+                    <a href="/" class="text-decoration-none">
+                        <i class="fas fa-arrow-left me-2"></i>
+                        Back to Books
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .product-image {
+        transition: transform 0.3s ease;
+        padding: 20px;
+    }
+
+        .product-image:hover {
+            transform: scale(1.03);
+        }
+
+    .badge {
+        min-width: 120px;
+        letter-spacing: 0.5px;
+        border-radius: 8px !important;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+</style>
+
+@section Scripts {
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Add Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+}
