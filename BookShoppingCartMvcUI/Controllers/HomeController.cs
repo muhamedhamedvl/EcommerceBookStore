@@ -1,6 +1,7 @@
 ﻿using BookShoppingCartMvcUI.Models;
 using BookShoppingCartMvcUI.Models.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace BookShoppingCartMvcUI.Controllers
@@ -15,26 +16,30 @@ namespace BookShoppingCartMvcUI.Controllers
             _homeRepository = homeRepository;
             _logger = logger;
         }
+
         public async Task<IActionResult> Details(int id)
         {
             var book = await _homeRepository.GetBookById(id);
-            if (book == null)
-            {
-                TempData["errorMessage"] = "Book not found";
-                return RedirectToAction("Index");
-            }
+
+            if (book == null) return NotFound();
+
+            // Explicitly include related entities if needed
+            book.Genre = book.Genre ?? new Genre();
+            book.Stock = book.Stock ?? new Stock();
+
             return View(book);
         }
-        public async Task<IActionResult> Index(string sterm="",int genreId=0)
+
+        public async Task<IActionResult> Index(string sterm = "", int genreId = 0)
         {
             IEnumerable<Book> books = await _homeRepository.GetBooks(sterm, genreId);
             IEnumerable<Genre> genres = await _homeRepository.Genres();
             BookDisplayModel bookModel = new BookDisplayModel
             {
-              Books=books,
-              Genres=genres,
-              STerm=sterm,
-              GenreId=genreId
+                Books = books,
+                Genres = genres,
+                STerm = sterm,
+                GenreId = genreId
             };
             return View(bookModel);
         }
