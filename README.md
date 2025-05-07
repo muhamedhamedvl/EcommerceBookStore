@@ -4,19 +4,19 @@ An innovative e-commerce platform designed for seamless e-book shopping,
 featuring user-friendly interfaces, secure authentication, and robust admin management.
 
 ## 🧑‍💻 Tech Stack
-.NET Core MVC (Version 9)
-A powerful framework for building scalable and maintainable web applications.
+### .NET Core MVC (Version 9)
+### A powerful framework for building scalable and maintainable web applications.
 
-Microsoft SQL Server 2022
+### Microsoft SQL Server 2022
 The backbone database system for managing e-book data and user information.
 
-Entity Framework Core
+### Entity Framework Core
 Simplifies database interactions through an ORM (Object Relational Mapping) approach.
 
-Identity Core
+### Identity Core
 Ensures secure user authentication and management within the application.
 
-Bootstrap 5
+### Bootstrap 5
 Responsive frontend framework for a modern, mobile-friendly UI.
 
 ## 🛠 Tools Used & Alternatives
