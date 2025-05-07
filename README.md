@@ -5,7 +5,7 @@ featuring user-friendly interfaces, secure authentication, and robust admin mana
 
 ## 🧑‍💻 Tech Stack
 ### .NET Core MVC (Version 9)
-### A powerful framework for building scalable and maintainable web applications.
+A powerful framework for building scalable and maintainable web applications.
 
 ### Microsoft SQL Server 2022
 The backbone database system for managing e-book data and user information.
