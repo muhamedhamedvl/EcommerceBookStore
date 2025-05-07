@@ -26,7 +26,8 @@ Alternatives: .NET SDK + VS Code, .NET SDK + JetBrains Rider – lightweight IDE
 Microsoft SQL Server Management Studio (SSMS)
 Alternatives: Azure Data Studio, or SQL execution directly via terminal for simple queries.
 
-📸 Project Screenshots
+# 📸 Project Screenshots
+
 1.Registration
 
 ![registration](./screenshots/1Register.png)
