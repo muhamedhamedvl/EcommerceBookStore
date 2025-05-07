@@ -13,6 +13,9 @@
 - Microsoft Sql Server Management Studio (Alternative Azure data studio or you can just execute sql from terminal)
 
 ## Screenshots
+4.Registration
+
+![registration](./screenshots/1register.jpg)
 
 1.Homepage
 
