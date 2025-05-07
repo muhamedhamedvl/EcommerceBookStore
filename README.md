@@ -50,11 +50,11 @@
 
 9.Orders
 
-![Orders](./screenshots/9orders.png)
+![Orders](./screenshots/9Orders.png)
 
 10.stock
 
-![Order Detail](./screenshots/10stocks.png)
+![Order Detail](./screenshots/10Stocks.png)
 
 
 11.Genre
