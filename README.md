@@ -13,97 +13,60 @@
 - Microsoft Sql Server Management Studio (Alternative Azure data studio or you can just execute sql from terminal)
 
 ## Screenshots
-4.Registration
+1.Registration
 
 ![registration](./screenshots/1Register.png)
 
-1.Homepage
+2.Login
 
-![homepage](./screenshots/1.jpg)
+![login](./screenshots/afterregisterlogin.png)
 
-2.Homepage continued
+3.Homepage
 
-![homepage2](./screenshots/2.jpg)
+![homepage](./screenshots/HomePage.png)
 
-3.Login
+4.Details of Every Book
 
-![login](./screenshots/3.jpg)
+![Details](./screenshots/DetailOfEveryBook.png)
 
-4.Registration
+5.Add to Cart
 
-![registration](./screenshots/4.jpg)
+![Cart](./screenshots/afteraddungtocart.png)
 
-5.Add To Cart
 
-![add-to-cart](./screenshots/5.jpg)
+6.CompleteCheckout
 
-6.Cart
+![CompleteCheckOut](./screenshots/CompleteCheckOut.png)
 
-![cart](./screenshots/6.jpg)
 
-7.Checkout
+7.Order Success
 
-![cart](./screenshots/7.jpg)
+![OrderSuccess](./screenshots/OrderSucccess.png)
 
-8.Order success
 
-![order_suceess](./screenshots/8_order_success.jpg)
+8.Admin Login
 
-9.Admin Login
+![Admin Login](./screenshots/Loginwithadmin.png)
 
-![Admin Login](./screenshots/9_admin_login.jpg)
+9.Orders
 
-10.Admin Dashboard
+![Orders](./screenshots/oorders.png)
 
-![Admin Dashboard](./screenshots/10%20admin%20dashboard.jpg)
+10.stock
 
-11.Orders
+![Order Detail](./screenshots/stocks.png)
 
-![Orders](./screenshots/11%20admin%20orders.jpg)
 
-12.Order Detail
+11.Genre
 
-![Order Detail](./screenshots/12%20admin%20order%20detail.jpg)
+![Display Stock](./screenshots/Genre.png)
 
-13.Update Order Status
+12.Books
 
-![Update Order Status](./screenshots/13%20Update%20Order%20Status.jpg)
+![Update Stock](./screenshots/Books.png)
 
-14.Display Stock
+13.My Orders on Manage Avvount
 
-![Display Stock](./screenshots/14%20%20display%20stock.jpg)
-
-15.Update Stock
-
-![Update Stock](./screenshots/15%20update%20stock.jpg)
-
-16.Display Genre
-
-![Display Genre](./screenshots/16%20display%20genres.jpg)
-
-17.Add Genre
-
-![Add Genre](./screenshots/17%20add%20genre.jpg)
-
-18.Update Genre
-
-![Update Genre](./screenshots/18%20Update%20Genre.jpg)
-
-19.Display Books
-
-![Display Books](./screenshots/19%20display%20books.jpg)
-
-20.Add Book
-
-![Add Book](./screenshots/20%20add%20books.jpg)
-
-21.Update Book
-
-![Update Book](./screenshots/21%20update%20book.jpg)
-
-22.Top Selling Books
-
-![Top Selling Books](./screenshots/22%20top%20selling%20books.jpg)
 
 ## Thanks
 LinkedIn : www.linkedin.com/in/muhamed-hamed-muhamed-3a2a25250
