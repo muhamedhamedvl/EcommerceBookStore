@@ -1,9 +1,9 @@
-#📚 EbookStore (Built with .NET MVC)
+# 📚 EbookStore (Built with .NET MVC)
 
 An innovative e-commerce platform designed for seamless e-book shopping, 
 featuring user-friendly interfaces, secure authentication, and robust admin management.
 
-##🧑‍💻 Tech Stack
+## 🧑‍💻 Tech Stack
 .NET Core MVC (Version 9)
 A powerful framework for building scalable and maintainable web applications.
 
