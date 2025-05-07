@@ -46,7 +46,7 @@
 
 8.Admin Login
 
-![Admin Login](./screenshots/8Loginwithadmin.png)
+![Admin Login](./screenshots/8loginwithadmin.png)
 
 9.Orders
 
