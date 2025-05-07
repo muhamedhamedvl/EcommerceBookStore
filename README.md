@@ -19,7 +19,7 @@ Ensures secure user authentication and management within the application.
 Bootstrap 5
 Responsive frontend framework for a modern, mobile-friendly UI.
 
-🛠 Tools Used & Alternatives
+## 🛠 Tools Used & Alternatives
 Visual Studio 2022
 Alternatives: .NET SDK + VS Code, .NET SDK + JetBrains Rider – lightweight IDEs for faster development.
 
@@ -87,4 +87,4 @@ Feel free to reach out or connect on LinkedIn for any questions or collaboration
 
 LinkedIn: Muhamed Hamed(www.linkedin.com/in/muhamed-hamed-muhamed-3a2a25250)
 
-#MuhamedHamed | Passionate about creating seamless, user-centric applications
+# MuhamedHamed | Passionate about creating seamless, user-centric applications
