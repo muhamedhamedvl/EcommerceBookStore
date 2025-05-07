@@ -15,7 +15,7 @@
 ## Screenshots
 4.Registration
 
-![registration](./screenshots/1register.jpg)
+![registration](./screenshots/1Register.png)
 
 1.Homepage
 
