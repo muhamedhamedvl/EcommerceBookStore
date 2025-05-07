@@ -22,8 +22,6 @@ namespace BookShoppingCartMvcUI.Controllers
             var book = await _homeRepository.GetBookById(id);
 
             if (book == null) return NotFound();
-
-            // Explicitly include related entities if needed
             book.Genre = book.Genre ?? new Genre();
             book.Stock = book.Stock ?? new Stock();
 

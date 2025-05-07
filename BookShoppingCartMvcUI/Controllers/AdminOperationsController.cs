@@ -27,7 +27,6 @@ public class AdminOperationsController : Controller
         }
         catch (Exception ex)
         {
-            // log exception here
         }
         return RedirectToAction(nameof(AllOrders));
     }
@@ -85,7 +84,6 @@ public class AdminOperationsController : Controller
         }
         catch (Exception ex)
         {
-            // catch exception here
             TempData["msg"] = "Something went wrong";
         }
         return RedirectToAction(nameof(UpdateOrderStatus), new { orderId = data.OrderId });
