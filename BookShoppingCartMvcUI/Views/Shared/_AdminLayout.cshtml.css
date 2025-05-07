@@ -1,4 +1,4 @@
-﻿body {
+﻿﻿body {
     padding: 0;
     margin: 0;
 }
@@ -22,15 +22,20 @@
     }
 
         *::-webkit-scrollbar-thumb:hover {
-            background: #486888; /* Color of the thumb on hover */
+            background: #486888; 
         }
 
-.main-contaier {
+
+.main-container {
     display: flex;
     width: 100vw;
     height: 100vh;
 }
-
+.sidenav a:hover {
+    background-color: #476584;
+    color: #fff;
+    transition: all 0.3s ease;
+}
 .sidenav {
     height: 100%;
     width: 250px;
@@ -72,12 +77,14 @@
 
 .nav-actions {
     display: flex;
-    gap: 5px;
+    align-items: center;
+    gap: 15px;
 }
 
     .nav-actions button {
-        border: none;
-        background: none;
+        color: white;
+        padding: 5px;
+        cursor: pointer;
     }
 
         .nav-actions a:hover,
