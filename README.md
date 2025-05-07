@@ -19,51 +19,51 @@
 
 2.Login
 
-![login](./screenshots/afterregisterlogin.png)
+![login](./screenshots/2afterregisterlogin.png)
 
 3.Homepage
 
-![homepage](./screenshots/HomePage.png)
+![homepage](./screenshots/3HomePage.png)
 
 4.Details of Every Book
 
-![Details](./screenshots/DetailOfEveryBook.png)
+![Details](./screenshots/4DetailOfEveryBook.png)
 
 5.Add to Cart
 
-![Cart](./screenshots/afteraddungtocart.png)
+![Cart](./screenshots/5afteraddungtocart.png)
 
 
 6.CompleteCheckout
 
-![CompleteCheckOut](./screenshots/CompleteCheckOut.png)
+![CompleteCheckOut](./screenshots/6CompleteCheckOut.png)
 
 
 7.Order Success
 
-![OrderSuccess](./screenshots/OrderSucccess.png)
+![OrderSuccess](./screenshots/7OrderSucccess.png)
 
 
 8.Admin Login
 
-![Admin Login](./screenshots/Loginwithadmin.png)
+![Admin Login](./screenshots/8Loginwithadmin.png)
 
 9.Orders
 
-![Orders](./screenshots/oorders.png)
+![Orders](./screenshots/9orders.png)
 
 10.stock
 
-![Order Detail](./screenshots/stocks.png)
+![Order Detail](./screenshots/10stocks.png)
 
 
 11.Genre
 
-![Display Stock](./screenshots/Genre.png)
+![Display Stock](./screenshots/11Genre.png)
 
 12.Books
 
-![Update Stock](./screenshots/Books.png)
+![Update Stock](./screenshots/12Books.png)
 
 13.My Orders on Manage Avvount
 
